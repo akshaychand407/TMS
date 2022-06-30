@@ -1,0 +1,54 @@
+/* /* here you can put your own css to customize and override the theme */
+.green_icon{
+    color :green !important;
+}
+.teal_icon{
+    color :#008080 !important;
+}
+.light_yellow_icon{
+    color :#fff78e !important;
+}
+.red_icon{
+    color:#FF4500 ! important;
+}
+.light_cyan_icon{
+    color :#91d6f9 !important;
+}
+.magenta_icon{
+    color :magenta !important;
+}
+.pink_icon{
+    color : #FFC0CB !important;
+}
+.orange_icon{
+    color:#FFA500 !important;
+}
+.sienna_icon {
+    color:#A0522D ! important;
+}
+.blue_icon {
+  color: #00BFFF ! important;
+}
+.gray_icon {
+    color:#808080 !important;
+}
+.light_orange_icon {
+    color:#f0ad4e !important;
+}
+.page-bar{
+    background: rgb(255,255,255) !important; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ) !important; /* IE6-9 */
+    border:1px solid #ccc;
+}
+
+.margintop3{
+  margin-top:3px;
+}
+.wysiwyg-color-default
+{
+
+    line-height:20px;font-family:arial;color:rgb(0,169,79);font-size:14px;text-transform:uppercase;font-weight:bold;
+}

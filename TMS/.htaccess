@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php|resources|robots\.txt) 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+php_value post_max_size 15M
+php_value upload_max_filesize 15M
+
+<IfModule mod_headers.c> 
+  Header set X-XSS-Protection "1; mode=block" 
+  Header set X-Frame-Options "sameorigin"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Strict-Transport-Security "max-age=31536000"
+  Header set Referrer-Policy "origin"
+</IfModule>
